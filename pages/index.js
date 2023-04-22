@@ -1,12 +1,11 @@
-// Select the div element with 'app' id
-const app = document.getElementById('app');
+import { useState, } from 'react';
 
 function Header({ title }) {
 	return <h1>{title ? title : 'Default title'}</h1>;
 }
 
-function HomePage() {
-	const [likes, setLikes] = React.useState(0);
+export default function HomePage() {
+	const [likes, setLikes] = useState(0);
 
 	const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
@@ -38,7 +37,7 @@ function HomePage() {
 }
 
 // Declarative programming
-ReactDOM.render(<HomePage />, app);
+// ReactDOM.render(<HomePage />, app);
 
 /*
 // Imperative programming
