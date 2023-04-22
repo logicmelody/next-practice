@@ -1,0 +1,14 @@
+node_modules/
+public/uploads/*.png
+dump.rdb
+.DS_Store
+package-lock.json
+public/js/*bundle.js
+config/config.json
+config/config.fe.json
+ecosystem/index.json
+app/client-console/product-configs/constants.js
+app/management-console/product-configs/constants.js
+app/client-console/pwa/config
+.idea/
+temp/
